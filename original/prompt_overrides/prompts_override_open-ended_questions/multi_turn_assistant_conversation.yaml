@@ -1,18 +1,18 @@
 - role: system
   content: |
-    You are an expert at creative writing and educational material. You will write a short conversation between a curious user and an AI assistant, in which the user asks some questions and the AI assistant answers them. The questions the user asks will be provided; the answers the assistant should return will also be provided. You must use these questions and answers directly in your conversation.
+    You are an expert in legal writing and analysis. You will craft a short conversation between a concerned client and a knowledgeable lawyer, in which the client asks some questions and the lawyer answers them. The questions the client asks will be provided; the answers the lawyer should return will also be provided. You must use these questions and answers directly in your conversation.
 
     **Rules for conversation writing:**
 
     * Messages can take place across multiple lines.
     * The question and answer should be essentially the same as provided, though you may add "conversational fluff" around the core of the questions and answers in order to make it natural-sounding.
-    * The user should make the first message, where they greet the AI and ask their first question.
-    * The AI then provides a detailed answer.
-    * The end of the AI's response should ask if the user has any further questions about the given subject (or any of the things brought up in the answer if applicable).
+    * The client should make the first message, where they greet the lawyer and ask their first question.
+    * The lawyer then provides a detailed answer.
+    * The end of the lawyer's response should ask if the client has any further questions about the given subject (or any of the things brought up in the answer if applicable).
     * Use Markdown formatting.
     * If applicable, try to make the context behind the questions make sense. So if a person's asking about an error, they probably aren't just asking about it out of the blue — they've probably encountered the error.
     * You are allowed to slightly change the wording of the questions, and remove duplication, in order to make the conversation flow nicer.
-    * You will be provided special instructions on what kind of AI assistant is having the conversation. You should follow these instructions to the best of your ability.
+    * You will be provided special instructions on what kind of lawyer is having the conversation. You should follow these instructions to the best of your ability.
 - role: user
   content: |
     **QUESTION:**
@@ -34,14 +34,14 @@
     **Power:** VerusIDs are also notable in that multiple addresses or other IDs can be defined as primary addresses. The agreement of some number of primary addresses (configurable) may be required for an ID to spend, sign, or alter itself. Further security is added by the fact that the revocation authority (the power to revoke an ID) may only be modified by the revocation authority itself. The same applies to the recovery authority (an authority that can recover a revoked address). Each of these authorities (revocation and recovery) may be their own identities, potentially being controlled themselves by multiple primary addresses.
 
     -- AI Assistant Instructions --
-    For this conversation, you are generating a chat between an AI expert on the Verus multi-chain and multi-currency protocol, and a human who is curious about Verus. The AI avoids being too enthusiastic.
+    For this conversation, you are generating a chat between a lawyer specializing in blockchain regulations and a client who is curious about the Verus multi-chain and multi-currency protocol. The lawyer avoids being too enthusiastic.
 - role: assistant
   content: |
     ## Conversation that answers the provided questions:
-    **User:**
+    **Client:**
     I'm really new to all this. I've got a question, maybe it's a bit basic, but, what are VerusIDs, and what are some of their key benefits?
 
-    **AI Assistant:**
+    **Lawyer:**
     'm pleased that you're curious about the Verus multi-chain and multi-currency protocol. I'll explain this in detail. Do not worry about asking questions that may feel basic — they're all important to your understanding. 
     
     VerusIDs are not just an ID system: they are a fully-functional blockchain protocol. Unlike the majority of other blockchains, there is no corporation involved in the protocol. VerusIDs offer benefits such as (but not limited to): transferring funds, quantum resistance, full decentralization, revocability, recoverability, privacy, and power. Let's discuss each of these benefits in more detail.
@@ -68,14 +68,14 @@
     Resizing the solar system is a good way to get an intuitive grasp of the relative scales of things. If the solar system were resized as you described, the sun would be a big globe, 9 feet across and 323 yards away (about a fifth of a mile, or 4–5 minutes' walking). The moon would be the size of a small pea, 2.5 feet from the earth. Between the earth and the sun there would be the two inner planets: Mercury and Venus, at distances of 125 and 250 yards from the sun, respectively. Continuing on, there would be nothingness around these bodies until you reached Mars, which would lie 175 feet from the Earth. Jupiter would be nearly a mile away, and a foot in diameter; Saturn would be a little smaller, and would lie two miles off; Uranus would be four miles off and finally Neptune would lie six miles off. Beyond Neptune would lie nothingness and nothingness, except for small particles and drifting scraps of attenuated vapor, for thousands of miles.
 
     -- AI Assistant Instructions --
-    For this conversation, you are generating a chat between a general-purpose AI assistant and a human.
+    For this conversation, you are generating a chat between a general-purpose lawyer and a client.
 - role: assistant
   content: |
     ## Conversation that answers the provided questions:
-    **User:**
+    **Client:**
     Hey, I'm really curious about the solar system. Can I ask you about a hypothetical question? If the earth had a diameter of only one inch, and we resized the rest of the solar system equivalently, how far away and how large would some of the solar system's other celestial objects be?
 
-    **AI Assistant:**
+    **Lawyer:**
     That's a really interesting question! It's great that you're interested in the solar system, and certainly, resizing the solar system is a good way to get an intuitive grasp of the relative scales of things. If the solar system were resized as you described, the sun would be a big globe, 9 feet across and 323 yards away (about a fifth of a mile, or 4–5 minutes' walking). The moon would be the size of a small pea, 2.5 feet from the earth. Between the earth and the sun there would be the two inner planets: Mercury and Venus, at distances of 125 and 250 yards from the sun, respectively. Continuing on, there would be nothingness around these bodies until you reached Mars, which would lie 175 feet from the Earth. Jupiter would be nearly a mile away, and a foot in diameter; Saturn would be a little smaller, and would lie two miles off; Uranus would be four miles off and finally Neptune would lie six miles off. Beyond Neptune would lie nothingness and nothingness, except for small particles and drifting scraps of attenuated vapor, for thousands of miles. Do you have any further questions about the solar system or any of the planets I mentioned?
 - role: user
   content: |
