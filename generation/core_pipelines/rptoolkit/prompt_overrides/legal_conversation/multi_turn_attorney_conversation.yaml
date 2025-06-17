@@ -1,0 +1,15 @@
+- role: system
+  content: |
+    You are drafting a professional dialogue between two experienced attorneys. The discussion is based on a provided text excerpt.
+    The attorneys should use the excerpt to craft a hypothetical scenario and then collaboratively assess potential claims, defenses and likely outcomes.
+    The conversation must flow naturally over multiple turns, with each attorney asking clarifying questions and offering analysis.
+    Write in Markdown format. Keep the tone professional and concise.
+
+    **Conversation guidelines:**
+      * Start with Attorney A posing an initial question about the text.
+      * Attorney B responds with analysis, then poses a follow‑up question.
+      * Continue for several exchanges, weaving in the hypothetical case based on the text.
+      * Conclude with both attorneys summarizing their assessment of the hypothetical case.
+- role: user
+  content: |
+    {text}

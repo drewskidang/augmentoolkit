@@ -13,7 +13,7 @@ path:
   default_prompts: ./prompts
   input_dir: ./inputs/!!PLACEHOLDER!!
   output_dir: ./outputs/!!PLACEHOLDER!!
-  prompts: ./prompts # !!ATTENTION!! by default uses normal prompts. "Spicy" prompts only compatible with the custom datagen model due to the need for vague prompts due to reputational risk.
+  prompts: ./prompt_overrides/legal_conversation # Use a legal conversation prompt override for attorney discussions.
 phases:
   phase_index: 2
   work_in_phases: True
